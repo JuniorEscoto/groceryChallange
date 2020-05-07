@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		799A4F452458DDC7002D3F2D /* ImageAnwserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A4F442458DDC7002D3F2D /* ImageAnwserViewController.swift */; };
 		C11488BB20BE12DC00429C8F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11488BA20BE12DC00429C8F /* Service.swift */; };
 		C1DDE15E20A9FF3500FD5273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDE15D20A9FF3500FD5273 /* AppDelegate.swift */; };
 		C1DDE16020A9FF3500FD5273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDE15F20A9FF3500FD5273 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		0155E20476FAF37D7E75EA86 /* Pods-Grocery Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grocery Challenge/Pods-Grocery Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		56CD3724179AF048BF184F5D /* Pods_Grocery_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grocery_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799A4F442458DDC7002D3F2D /* ImageAnwserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnwserViewController.swift; sourceTree = "<group>"; };
 		C11488BA20BE12DC00429C8F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		C1DDE15A20A9FF3500FD5273 /* Grocery Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DDE15D20A9FF3500FD5273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				C1DDE17720AA08FC00FD5273 /* API */,
 				C1DDE15D20A9FF3500FD5273 /* AppDelegate.swift */,
 				C1DDE15F20A9FF3500FD5273 /* ViewController.swift */,
+				799A4F442458DDC7002D3F2D /* ImageAnwserViewController.swift */,
 				C1DDE16120A9FF3500FD5273 /* Main.storyboard */,
 				C1DDE16420A9FF3700FD5273 /* Assets.xcassets */,
 				C1DDE16620A9FF3700FD5273 /* LaunchScreen.storyboard */,
@@ -228,6 +231,7 @@
 				C11488BB20BE12DC00429C8F /* Service.swift in Sources */,
 				C1DDE16020A9FF3500FD5273 /* ViewController.swift in Sources */,
 				C1DDE17620AA042D00FD5273 /* UIImageExtensions.swift in Sources */,
+				799A4F452458DDC7002D3F2D /* ImageAnwserViewController.swift in Sources */,
 				C1DDE17B20AA0BA900FD5273 /* Question.swift in Sources */,
 				C1DDE17420AA015F00FD5273 /* ChallengeAPI.swift in Sources */,
 				C1DDE15E20A9FF3500FD5273 /* AppDelegate.swift in Sources */,

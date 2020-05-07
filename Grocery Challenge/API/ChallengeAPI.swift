@@ -38,8 +38,10 @@ final class ChallengeAPI {
                 do {
                     let questions: Questions = try JSONDecoder().decode(Questions.self, from: data)
                     completion(.success(questions.questions))
+                    
                 } catch {
                     completion(.error(error))
+                    
                 }
             case .error(let error):
                 completion(.error(error))
@@ -49,7 +51,7 @@ final class ChallengeAPI {
 }
 
 enum APIRequests: String, Requests {
-    case questions = "https://gist.github.com/acrookston/e1af7bf2e2607db3d27a0b44ed1843c1/raw/490d746e54e774476652cf8ab65f9c912e54e95f/question.json"
+    case questions = "https://gist.githubusercontent.com/acrookston/e1af7bf2e2607db3d27a0b44ed1843c1/raw/490d746e54e774476652cf8ab65f9c912e54e95f/question.json"
 
     var url: URL {
         return URL(string: rawValue)!
